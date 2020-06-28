@@ -1,0 +1,138 @@
+.playmode-wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+.icon-wrapper {
+  text-align: center;
+  margin-top: 100px;
+}
+.cross,
+.not {
+  font-size: 108px;
+}
+.cross {
+  color: blue;
+  text-shadow: 5px blue;
+
+  text-shadow: 2px 4px 6px blue;
+}
+.not {
+  color: orange;
+  text-shadow: 5px orange;
+  text-shadow: 2px 4px 6px orange;
+}
+
+.selection {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.ai-btn,
+.friend-btn {
+  max-width: 60%;
+  margin: 10px auto;
+  border-radius: 50px !important;
+}
+
+.settings {
+  color: #007bff;
+  font-size: 36px;
+  border-radius: 50%;
+}
+
+.fa-circle-thin {
+  font-size: 48px;
+  opacity: 0.2;
+  color: gray;
+}
+
+.cross-side,
+.not-side {
+  font-size: 108px;
+}
+.cross-side {
+  color: blue;
+  opacity: 0.2;
+  text-shadow: 2px 4px 6px blue;
+}
+.not-side {
+  color: orange;
+  opacity: 0.2;
+  text-shadow: 2px 4px 6px orange;
+}
+.opacity {
+  opacity: 1 !important;
+}
+.selected-cross {
+  color: blue;
+  font-size: 48px;
+}
+.selected-not {
+  color: orange;
+  font-size: 48px;
+}
+
+.icon-wrapper1 {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.arena {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 300px;
+  margin: 50px auto;
+  border-radius: 20px;
+  z-index: 50;
+}
+
+.box-wrapper {
+  z-index: 50;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 60px;
+}
+.box-wrapper:nth-child(1),
+.box-wrapper:nth-child(2),
+.box-wrapper:nth-child(4),
+.box-wrapper:nth-child(5) {
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.box-wrapper:nth-child(3),
+.box-wrapper:nth-child(6) {
+  border-bottom: 1px solid gray;
+}
+.box-wrapper:nth-child(7),
+.box-wrapper:nth-child(8) {
+  border-right: 1px solid gray;
+}
+
+.score-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.score-card {
+  background-color: gray;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50px;
+}
+
+.blue {
+  color: blue;
+  text-shadow: 2px 4px 6px blue;
+}
+.orange {
+  color: orange;
+  text-shadow: 2px 4px 6px orange;
+}
